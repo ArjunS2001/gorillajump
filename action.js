@@ -7,7 +7,7 @@ function jump(){
     gorilla.classList.remove("jump-animation");
   },500);
  }
- document.addEventListener("keypress",() => {
+ document.addEventListener("keydown",() => {
    if(!gorilla.classList.contains('jump-animation')){
      jump();
    }
