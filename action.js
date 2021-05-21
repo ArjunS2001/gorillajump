@@ -7,7 +7,7 @@ function jump(){
     gorilla.classList.remove("jump-animation");
   },500);
  }
- document.addEventListener("keydown",() => {
+ document.addEventListener("",() => {
    if(!gorilla.classList.contains('jump-animation')){
      jump();
    }
@@ -27,7 +27,7 @@ function jump(){
       rock.style.display = '';
     }  
   //detect collision
-  if(rockleft < 50 && rockleft > 0 && gorillatop > 100){
+  if(rockleft < 60 && rockleft > 0 && gorillatop > 120){
     //collision
     alert("GAME OVER! \n\n You got a score of : "+  score.innerText + "\n\n Press Enter to Play Again");
     location.reload(); 
