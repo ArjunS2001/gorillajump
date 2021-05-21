@@ -29,7 +29,7 @@ function jump(){
   //detect collision
   if(rockleft < 60 && rockleft > 0 && gorillatop > 120){
     //collision
-    alert("GAME OVER! \n\n You got a score of : "+  score.innerText + "\n\n Press Enter to Play Again");
+    alert("GAME OVER! \n\n You got a score of : "+  score.innerText + "\n\n Press OK to Play Again");
     location.reload(); 
     
   }
